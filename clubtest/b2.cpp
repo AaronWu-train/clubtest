@@ -54,6 +54,7 @@ mat mpow(mat a, ll n) {
         }
     return ans;
 }
+
 ll npow(ll a, ll n) {
     ll ans = 1;
       for (ll i = 1; i <= n; i*=2) {
